@@ -1,0 +1,1433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="Pag0Inicio">
+       <widget class="QLabel" name="label">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>70</y>
+          <width>481</width>
+          <height>161</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:36pt; font-weight:700;&quot;&gt;SMARTDELIVERY&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_2">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>180</y>
+          <width>411</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>221</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Autores: &lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Juan Fuentes, Sergio Acosta, Juan Rincon&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_3">
+        <property name="geometry">
+         <rect>
+          <x>560</x>
+          <y>110</y>
+          <width>161</width>
+          <height>131</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_4">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>280</y>
+          <width>381</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Sistema de recepción y seguimiento de paquetes eficiente utilizando unicamente estructuras de datos lineales.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="textFormat">
+         <enum>Qt::TextFormat::RichText</enum>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnEmpezar">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>430</y>
+          <width>141</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Empezar</string>
+        </property>
+        <property name="checkable">
+         <bool>false</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_17">
+        <property name="geometry">
+         <rect>
+          <x>550</x>
+          <y>60</y>
+          <width>181</width>
+          <height>181</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap resource="Recursos.qrc">:/logo.png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_50">
+        <property name="geometry">
+         <rect>
+          <x>570</x>
+          <y>500</y>
+          <width>201</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Codigo generado por IA: 30%</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="pag1Principal">
+       <widget class="QLabel" name="label_5">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>50</y>
+          <width>391</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:20pt; font-weight:700;&quot;&gt;Escoja la accion a realizar.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_6">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>90</y>
+          <width>371</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:700;&quot;&gt;Despues de completar cada accion se volvera al menu principal.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="textFormat">
+         <enum>Qt::TextFormat::RichText</enum>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_7">
+        <property name="geometry">
+         <rect>
+          <x>570</x>
+          <y>10</y>
+          <width>161</width>
+          <height>151</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap resource="Recursos.qrc">:/logo.png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnRegistrar">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>190</y>
+          <width>151</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="mouseTracking">
+         <bool>false</bool>
+        </property>
+        <property name="text">
+         <string>Registrar paquete</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_8">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>170</y>
+          <width>181</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LayoutDirection::LeftToRight</enum>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;Aqui podra registrar un paquete para que entre en la cola.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_18">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>250</y>
+          <width>181</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LayoutDirection::LeftToRight</enum>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;Aqui podra ver el paquete que se encuentra de primeras en la cola.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnVerPrioridad">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>270</y>
+          <width>151</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Ver Prioridad</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_19">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>350</y>
+          <width>181</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LayoutDirection::LeftToRight</enum>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;Aqui atendera el primer paquete en la cola registrandolo en la ruta.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnDespacharPrioridad">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>360</y>
+          <width>151</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Despachar Prioridad</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_20">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>450</y>
+          <width>181</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LayoutDirection::LeftToRight</enum>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;Aqui podra consultar el orden de la ruta de entrega, no afectara los paquetes registrados.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnVerOrdenRuta">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>460</y>
+          <width>151</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Ver orden de la Ruta</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_21">
+        <property name="geometry">
+         <rect>
+          <x>410</x>
+          <y>170</y>
+          <width>181</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LayoutDirection::LeftToRight</enum>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;Aqui podra cambiar el estado de un paquete de la ruta, limite su uso al estado final del paquete.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnCambiarEstado">
+        <property name="geometry">
+         <rect>
+          <x>600</x>
+          <y>190</y>
+          <width>151</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="mouseTracking">
+         <bool>false</bool>
+        </property>
+        <property name="text">
+         <string>Cambiar Estado</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnConsultarEstado">
+        <property name="geometry">
+         <rect>
+          <x>600</x>
+          <y>280</y>
+          <width>151</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="mouseTracking">
+         <bool>false</bool>
+        </property>
+        <property name="text">
+         <string>Consultar Estado</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_22">
+        <property name="geometry">
+         <rect>
+          <x>410</x>
+          <y>270</y>
+          <width>181</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LayoutDirection::LeftToRight</enum>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;Aqui podra consultar el estado de un paquete de la ruta, su ultimo estado sera visible desde aqui.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_23">
+        <property name="geometry">
+         <rect>
+          <x>410</x>
+          <y>370</y>
+          <width>181</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LayoutDirection::LeftToRight</enum>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;Aqui podra deshacer el estado de un paquete de la ruta, su ultimo estado sera eliminado.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnRevertirEstado">
+        <property name="geometry">
+         <rect>
+          <x>600</x>
+          <y>380</y>
+          <width>151</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="mouseTracking">
+         <bool>false</bool>
+        </property>
+        <property name="text">
+         <string>Revertir Estado</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnCerrarSesion">
+        <property name="geometry">
+         <rect>
+          <x>530</x>
+          <y>470</y>
+          <width>151</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="mouseTracking">
+         <bool>false</bool>
+        </property>
+        <property name="text">
+         <string>Cerrar Sesion</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="pag2RegPaq">
+       <widget class="QLabel" name="lblIdPaquete">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>230</y>
+          <width>401</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;TextLabel&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_9">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>260</y>
+          <width>161</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Nombre Cliente: &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_10">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>310</y>
+          <width>141</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Direccion: &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="txtCliente">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>270</y>
+          <width>251</width>
+          <height>31</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="txtDireccion">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>310</y>
+          <width>251</width>
+          <height>31</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnLimpiar">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>390</y>
+          <width>151</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>LIMPIAR</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnGuardar">
+        <property name="geometry">
+         <rect>
+          <x>450</x>
+          <y>390</y>
+          <width>151</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>GUARDAR</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnFinalizar">
+        <property name="geometry">
+         <rect>
+          <x>300</x>
+          <y>470</y>
+          <width>151</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>FINALIZAR</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_16">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>230</y>
+          <width>111</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;ID Paquete:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_26">
+        <property name="geometry">
+         <rect>
+          <x>510</x>
+          <y>60</y>
+          <width>191</width>
+          <height>191</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap resource="Recursos.qrc">:/logo.png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_14">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>30</y>
+          <width>351</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; font-weight:700;&quot;&gt;Registro de paquetes&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="textFormat">
+         <enum>Qt::TextFormat::RichText</enum>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_25">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>100</y>
+          <width>391</width>
+          <height>101</height>
+         </rect>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LayoutDirection::LeftToRight</enum>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Aqui podra registrar un paquete para que entre en la cola de prioridad, recordar que el primer paquete en entregar sera el primero que se ingrese.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lblMensajeIngreso">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>350</y>
+          <width>401</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;TextLabel&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="pag3VerPriCola">
+       <widget class="QLabel" name="label_24">
+        <property name="geometry">
+         <rect>
+          <x>150</x>
+          <y>70</y>
+          <width>351</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; font-weight:700;&quot;&gt;Consulta del tope&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="textFormat">
+         <enum>Qt::TextFormat::RichText</enum>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_27">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>150</y>
+          <width>401</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LayoutDirection::LeftToRight</enum>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Aqui podra ver el paquete que se encuentra de primeras en la cola de prioridad, este sera el primero en ser despachado a la ruta&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_28">
+        <property name="geometry">
+         <rect>
+          <x>530</x>
+          <y>70</y>
+          <width>191</width>
+          <height>191</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap resource="Recursos.qrc">:/logo.png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_15">
+        <property name="geometry">
+         <rect>
+          <x>150</x>
+          <y>380</y>
+          <width>141</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Direccion: &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_29">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>330</y>
+          <width>161</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Nombre Cliente: &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_30">
+        <property name="geometry">
+         <rect>
+          <x>150</x>
+          <y>300</y>
+          <width>111</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;ID Paquete:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lblTopeId">
+        <property name="geometry">
+         <rect>
+          <x>270</x>
+          <y>300</y>
+          <width>401</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;TextLabel&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lblTopeCliente">
+        <property name="geometry">
+         <rect>
+          <x>270</x>
+          <y>340</y>
+          <width>401</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;TextLabel&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lblTopeDireccion">
+        <property name="geometry">
+         <rect>
+          <x>270</x>
+          <y>380</y>
+          <width>401</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;TextLabel&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnVolverTope">
+        <property name="geometry">
+         <rect>
+          <x>550</x>
+          <y>340</y>
+          <width>151</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Volver</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="pag4DesPriori">
+       <widget class="QLabel" name="lblDespachoDireccion">
+        <property name="geometry">
+         <rect>
+          <x>270</x>
+          <y>380</y>
+          <width>401</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;TextLabel&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_31">
+        <property name="geometry">
+         <rect>
+          <x>530</x>
+          <y>70</y>
+          <width>191</width>
+          <height>191</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap resource="Recursos.qrc">:/logo.png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_32">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>150</y>
+          <width>401</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LayoutDirection::LeftToRight</enum>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;El paquete que se encuentra es el primero en la cola de prioridad, este sera el despachado a la ruta.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lblDespachoId">
+        <property name="geometry">
+         <rect>
+          <x>270</x>
+          <y>300</y>
+          <width>401</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;TextLabel&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_33">
+        <property name="geometry">
+         <rect>
+          <x>150</x>
+          <y>70</y>
+          <width>351</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; font-weight:700;&quot;&gt;Despacho del tope&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="textFormat">
+         <enum>Qt::TextFormat::RichText</enum>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_34">
+        <property name="geometry">
+         <rect>
+          <x>150</x>
+          <y>380</y>
+          <width>141</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Direccion: &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_35">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>330</y>
+          <width>161</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Nombre Cliente: &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnDespachar">
+        <property name="geometry">
+         <rect>
+          <x>550</x>
+          <y>330</y>
+          <width>151</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>DESPACHAR</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_36">
+        <property name="geometry">
+         <rect>
+          <x>150</x>
+          <y>300</y>
+          <width>111</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;ID Paquete:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lblDespachoCliente">
+        <property name="geometry">
+         <rect>
+          <x>270</x>
+          <y>340</y>
+          <width>401</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;TextLabel&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnVolverDespacho">
+        <property name="geometry">
+         <rect>
+          <x>550</x>
+          <y>400</y>
+          <width>151</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Volver</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="pag5VerOrdRut">
+       <widget class="QLabel" name="lblRutaActual">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>290</y>
+          <width>461</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;TextLabel&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QListWidget" name="lstRuta">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>80</y>
+          <width>411</width>
+          <height>192</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnRutaInicioFin">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>410</y>
+          <width>191</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>VER INCIO -&gt; FIN</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnRutaFinInicio">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>410</y>
+          <width>191</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>VER FIN -&gt; INICIO</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_13">
+        <property name="geometry">
+         <rect>
+          <x>570</x>
+          <y>100</y>
+          <width>151</width>
+          <height>151</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap resource="Recursos.qrc">:/logo.png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnVolverRuta">
+        <property name="geometry">
+         <rect>
+          <x>560</x>
+          <y>410</y>
+          <width>151</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Volver</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="pag6CambiarEstado">
+       <widget class="QLabel" name="label_37">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>80</y>
+          <width>351</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; font-weight:700;&quot;&gt;Cambiar Estado&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="textFormat">
+         <enum>Qt::TextFormat::RichText</enum>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_38">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>150</y>
+          <width>341</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LayoutDirection::LeftToRight</enum>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;El paquete al que se desea cambiar el estado debe estar en ruta.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_39">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>290</y>
+          <width>201</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;ID Paquete a Cambiar:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="txtIdCambiar">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>290</y>
+          <width>251</width>
+          <height>31</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_40">
+        <property name="geometry">
+         <rect>
+          <x>210</x>
+          <y>330</y>
+          <width>201</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Nuevo Estado:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="txtNuevoEstado">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>330</y>
+          <width>251</width>
+          <height>31</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnConfirmarCambio">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>430</y>
+          <width>191</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>CONFIRMAR</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnVolverCambio">
+        <property name="geometry">
+         <rect>
+          <x>530</x>
+          <y>434</y>
+          <width>131</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Volver</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lblResultadoCambiar">
+        <property name="geometry">
+         <rect>
+          <x>190</x>
+          <y>380</y>
+          <width>401</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;TextLabel&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_41">
+        <property name="geometry">
+         <rect>
+          <x>530</x>
+          <y>70</y>
+          <width>191</width>
+          <height>191</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap resource="Recursos.qrc">:/logo.png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="pag7ConsultarEstado">
+       <widget class="QLabel" name="label_42">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>80</y>
+          <width>351</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; font-weight:700;&quot;&gt;Consultar Estado&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="textFormat">
+         <enum>Qt::TextFormat::RichText</enum>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_43">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>150</y>
+          <width>341</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LayoutDirection::LeftToRight</enum>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;El paquete que desee consultar debe estar al menos en ruta.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_44">
+        <property name="geometry">
+         <rect>
+          <x>530</x>
+          <y>70</y>
+          <width>191</width>
+          <height>191</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap resource="Recursos.qrc">:/logo.png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnVolverConsulta">
+        <property name="geometry">
+         <rect>
+          <x>530</x>
+          <y>434</y>
+          <width>131</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Volver</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnConfirmarConsulta">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>430</y>
+          <width>191</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>CONFIRMAR</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lblResultadoConsultar">
+        <property name="geometry">
+         <rect>
+          <x>190</x>
+          <y>360</y>
+          <width>401</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;TextLabel&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_45">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>290</y>
+          <width>201</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;ID Paquete a Consultar:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="txtIdConsultar">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>290</y>
+          <width>251</width>
+          <height>31</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="pag8RevertirConsulta">
+       <widget class="QPushButton" name="btnConfirmarRevertir">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>430</y>
+          <width>191</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>CONFIRMAR</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_46">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>290</y>
+          <width>201</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;ID Paquete a Revertir:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="txtIdRevertir">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>290</y>
+          <width>251</width>
+          <height>31</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_47">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>150</y>
+          <width>341</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LayoutDirection::LeftToRight</enum>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Ingrese el ID del paquete a revertir el estado.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lblResultadoRevertir">
+        <property name="geometry">
+         <rect>
+          <x>190</x>
+          <y>360</y>
+          <width>401</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;TextLabel&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnVolverRevertir">
+        <property name="geometry">
+         <rect>
+          <x>530</x>
+          <y>434</y>
+          <width>131</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Volver</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_48">
+        <property name="geometry">
+         <rect>
+          <x>530</x>
+          <y>70</y>
+          <width>191</width>
+          <height>191</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap resource="Recursos.qrc">:/logo.png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_49">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>80</y>
+          <width>351</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; font-weight:700;&quot;&gt;Revertir Estado&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="textFormat">
+         <enum>Qt::TextFormat::RichText</enum>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuSMARTDELIVERY">
+    <property name="title">
+     <string>SMARTDELIVERY</string>
+    </property>
+   </widget>
+   <addaction name="menuSMARTDELIVERY"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="Recursos.qrc"/>
+ </resources>
+ <connections/>
+</ui>
